@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    font-family: sans-serif;
+ 
+}
+nav{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    min-height: 60px;
+    position: fixed;
+    background-color: white;
+}
+.sty1{
+    color: black;
+    width: 5%;
+     margin-left: 20px;
+}
+a{
+    font-weight: 400;
+    text-decoration: none;
+}
+.sty1:hover{
+    color: white;
+    background-color: blue;
+}
+li{
+    margin-left: 6px;
+    list-style-type: none;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.li2{
+    margin-left: 6px;
+}
+#search1{
+    background: transparent;
+    width: 85%;
+    border: 0px;
+    outline: 0px;
+
+}
+.search2{
+    margin-left: 240px;
+    width:15%;
+    border: 2px solid;
+    min-height: 30px;
+    border-radius: 50px;
+    padding:08px;
+    
+}
+ .button1[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border: 1px solid  #2691d9;
+    background-color: white;
+    font-size: 15px;
+    color: blue;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 30px; 
+    background-color: #2691d9;
+}
+button[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border: 1px solid  #2691d9;
+    background-color: rgb(255, 172, 17);
+    font-size: 15px;
+    color: blue;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.a1{
+    color: black;
+}
+#now[type="submit"]{
+
+    margin-left: 640px;
+    border-radius: 10px;
+    width: 10%;
+}
+.body2{
+    margin-top: 58px;
+    height: 300px;
+    background-color: #2691d9;
+}
+#head1{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#para1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#head2{
+    text-align: center;
+    font-size: 36px;
+}
+.cls{
+    display: flex;
+    margin-left: 50px;
+}
+.course1{
+    margin-top: 30px;
+    height: 250px;
+    width: 28%;
+    margin-left: 40px;
+    background-image: url(https://img.freepik.com/free-photo/front-view-male-student-wearing-black-backpack-holding-copybooks-smiling-blue-wall_140725-42653.jpg?w=740&t=st=1693726330~exp=1693726930~hmac=05f5acb3180d9e4f162fdf4ed792c5f61d12895b4c9efca01de6867a81e0039e);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.course2{
+    background-image: url(https://img.freepik.com/free-photo/front-view-female-student-white-shirt-black-jacket-wearing-backpack-holding-files-with-copybooks-blue-wall-college-university-lessons_140725-43393.jpg?w=740&t=st=1693744009~exp=1693744609~hmac=3ef140e2818fb252ac19b4907fc896042775176e0ec4b4a10d9c7fb1efb72f2c);
+}
+.course3{
+    background-image: url(https://img.freepik.com/free-photo/front-view-female-student-white-shirt-holding-pen-copybook-blue-desk_140725-38454.jpg?w=740&t=st=1693744167~exp=1693744767~hmac=172206d96ce66d290989bf8620a3233bb2704f642158d893f0d09ffd8e9fcc1b);
+}
+.cousre-details{ 
+    color: white;
+    margin-top:30px;
+    width: 60%;
+    margin: 10px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#Apply[type="submit"]{
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 40%;
+    border: gainsboro;
+    background-color: orange;
+}
+.Services1{
+    display: flex;
+    margin: 40px;
+   
+}
+.srv1{
+ 
+    width: 30%;
+    height: 300px;
+    background-image: url(wbd.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 140px;
+}
+.srev2{
+    background-image: url(cloud.svg);
+}
+.srev3{
+   
+   background-image: url(graphs.svg);
+}
+.srev4{
+    background-image: url(ani.svg);
+}
+.srev5{
+  background-image: url(dbms.svg);
+}
+.srev6{
+    background-image: url(ml.svg);
+}
+.srv2{
+    
+    width: 41%;
+    height: 300px;
+    margin-left: 180px;    
+}
+.Internship{
+    margin-top:100px;
+}
+.int1{
+    border: 1px solid rgb(228, 218, 218);
+    background-color: rgb(235, 232, 232);
+    box-shadow: 2px 0 5px;
+    width: 29%;
+    height: 500px;
+    margin-left:45px;
+}
+.inter1{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.inter-img{
+  margin-left: 25%;
+}
+.interns-head{
+    margin-top: 5px;
+    text-align: center;
+}
+.interns-para{
+    font-size: 14px;
+    line-height: 21px;
+    word-spacing: 3px;
+    margin-top: 10px;
+    padding: 0px 15px 0px 15px;
+    text-indent: 15px;
+    color: rgb(44, 43, 43);
+}
+.Rating{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 50px;
+}
+.rating1{
+    border-right: 2px solid gainsboro;
+    width: 20%;
+    height: 150px;
+    margin-left: 50px;
+}
+.head4{
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+}
+.para2{
+    text-align: center;
+    font-size: 20px;
+}
+.Apply1[type="submit"]{
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin-left:110px;
+    background-color: #2691d9;
+}
+.a2{
+    color: white;
+}
+.list{
+    color: white;
+    border-bottom: 1px solid;
+    padding-right: 10px;
+    font-size: 24px;
+}
+.list1{
+    line-height: 30px;
+}
+.ul1{
+    margin-top: 70px;
+    padding-right: 70px;
+}
+
